@@ -37,8 +37,8 @@ for i in range(høydePix):
 
 
 # first number is down, second is forward
-start = (200, 100)
-goal = (110, 450)
+start = (155, 330)
+goal = (130, 385)
 
 path = grid.AStar(grid.Grid, start, goal)
 

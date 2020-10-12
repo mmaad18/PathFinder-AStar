@@ -97,8 +97,7 @@ class NodeGrid:
                     NodeToTest.remove(node)
             
             if len(NodeToTest) > 0:
-                NodeToTest.sort(key=ND.Node.GetGlo)
-                mainNode = NodeToTest[0]
+                mainNode = min(NodeToTest, key=ND.Node.GetGlo)
                 
         parentChain = [startNode.pos]
         self.ParentChain(endNode, parentChain)
