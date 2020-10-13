@@ -6,7 +6,7 @@ To run it:
 
 1) Download all the files
 2) Open AStarMain.py
-3) Choose the posistions of start and goal
+3) Choose the posistions of start and goal. (The x and y are swapped compared to the image pixel position)
 4) Run AStarMain.py
 
 It should be noted that it will take some time to run as the image is about 1000x600 pixels, so long travel distances is not advised. 
